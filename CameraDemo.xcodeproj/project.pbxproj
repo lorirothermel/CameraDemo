@@ -11,6 +11,7 @@
 		DF45E3AD29D43D3000D08A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E3AC29D43D3000D08A1D /* ContentView.swift */; };
 		DF45E3AF29D43D3200D08A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF45E3AE29D43D3200D08A1D /* Assets.xcassets */; };
 		DF45E3B229D43D3200D08A1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF45E3B129D43D3200D08A1D /* Preview Assets.xcassets */; };
+		DF45E3B929D43DE000D08A1D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E3B829D43DE000D08A1D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DF45E3AC29D43D3000D08A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF45E3AE29D43D3200D08A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF45E3B129D43D3200D08A1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF45E3B829D43DE000D08A1D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DF45E3AA29D43D3000D08A1D /* CameraDemoApp.swift */,
 				DF45E3AC29D43D3000D08A1D /* ContentView.swift */,
+				DF45E3B829D43DE000D08A1D /* ImagePicker.swift */,
 				DF45E3AE29D43D3200D08A1D /* Assets.xcassets */,
 				DF45E3B029D43D3200D08A1D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF45E3B929D43DE000D08A1D /* ImagePicker.swift in Sources */,
 				DF45E3AD29D43D3000D08A1D /* ContentView.swift in Sources */,
 				DF45E3AB29D43D3000D08A1D /* CameraDemoApp.swift in Sources */,
 			);
@@ -270,6 +274,8 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission to use the camera?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +305,8 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission to use the camera?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
