@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF2D164729D917E5003D4A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DF45E3A729D43D3000D08A1D /* CameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF45E3AA29D43D3000D08A1D /* CameraDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDemoApp.swift; sourceTree = "<group>"; };
 		DF45E3AC29D43D3000D08A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		DF45E3A929D43D3000D08A1D /* CameraDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DF2D164729D917E5003D4A95 /* Info.plist */,
 				DF45E3AA29D43D3000D08A1D /* CameraDemoApp.swift */,
 				DF45E3AC29D43D3000D08A1D /* ContentView.swift */,
 				DF45E3B829D43DE000D08A1D /* ImagePicker.swift */,
@@ -274,11 +276,12 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraDemo/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Permission to use the camera?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Permission to use your Photo Library?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,11 +308,12 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraDemo/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Permission to use the camera?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Permission to use your Photo Library?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
